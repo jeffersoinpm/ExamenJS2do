@@ -1,3 +1,5 @@
+import {IngredienteInterface} from "./ingrediente.interface";
+
 export interface ComidaInterface {
   nombrePlato: string,
   descripcionPlato: string,
@@ -5,4 +7,5 @@ export interface ComidaInterface {
   numeroPersonas: number,
   picante: boolean;
   imagenUrl: string;
+  ingredientes : IngredienteInterface[];
 }

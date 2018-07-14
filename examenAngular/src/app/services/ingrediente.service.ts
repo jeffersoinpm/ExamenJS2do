@@ -4,7 +4,7 @@ import {IngredienteInterface} from "../interfaces/ingrediente.interface";
 
 @Injectable()
 export class IngredienteService {
-  ingredienteSeleccionado:IngredienteInterface;
+  static ingredienteSeleccionado:IngredienteInterface;
   constructor(private http:HttpClient){
   }
   static getCommonHeaders() {

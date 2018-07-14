@@ -4,7 +4,7 @@ import {ComidaInterface} from "../interfaces/comida.interface";
 
 @Injectable()
 export class ComidaService {
-  comidaSeleccionada:ComidaInterface;
+  public static comidaSeleccionada:ComidaInterface;
   constructor(private http: HttpClient) {
   }
 

@@ -3,16 +3,18 @@ import {ComidaInterface} from "../interfaces/comida.interface";
 import {ComidaService} from "../services/comida.service";
 import {IngredienteInterface} from "../interfaces/ingrediente.interface";
 import {IngredienteService} from "../services/ingrediente.service";
+import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
-  styleUrls: ['./home.component.css']
+  styleUrls: ['./home.component.css'],
+  providers: [IngredienteService,ComidaService]
 })
 export class HomeComponent implements OnInit {
   ingredientes:Array<IngredienteInterface>;
   comidas:Array<ComidaInterface>;
-  constructor(private ingredienteService:IngredienteService, private comidaService:ComidaService){
+  constructor(private ingredienteService:IngredienteService, private comidaService:ComidaService,private _router: Router){
   }
   ngOnInit(){
     this.ingredienteService.obtenerIngredientes()
@@ -30,6 +32,8 @@ export class HomeComponent implements OnInit {
   }
   seleccionarComida(comida:ComidaInterface){
     console.log(comida);
-    this.comidaService.comidaSeleccionada=comida;
+    ComidaService.comidaSeleccionada=comida;
+    const url = ['/comida'];
+    this._router.navigate(url);
   }
 }

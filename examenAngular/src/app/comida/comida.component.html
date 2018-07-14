@@ -1,17 +1,4 @@
-<div class="row">
-  <div class="col-sm-8"></div>
-  <div class="col-sm-1">
-    <img src="https://image.flaticon.com/icons/png/512/107/107831.png" style="width: 40px; height: 40px">
-  </div>
-  <div class="col-sm-1">
-    <img src="http://emser.es/wp-content/uploads/2016/08/usuario-sin-foto.png" style="width: 40px; height: 40px">
-  </div>
-  <div class="col-sm-1">
-    <h5>Jefferson Paredes</h5>
-  </div>
-  <div class="col-sm-1"></div>
-</div>
-<h2>{{comida.nombrePlato}}</h2>
+<h2>Nombre Plato:{{comida.nombrePlato}}</h2>
 <div class="row">
   <div class="col-sm-1"></div>
   <div class="col-sm-3">
@@ -23,7 +10,7 @@
     <h4>Picante:{{comida.picante}}</h4>
   </div>
   <div class="col-sm-5">
-    <img src="{{comida.imagenUrl}}">
+    <img src="{{comida.imagenUrl}}" style="width: 80%;height: 80%">
   </div>
 </div>
 <br>
@@ -39,6 +26,7 @@
           <div class="col-sm-5">
             <h5>Nombre Ingrediente:{{ingrediente.nombreIngrediente}}</h5>
             <h5>Tipo Ingrediente:{{ingrediente.tipoIngrediente}}</h5>
+            <button mat-button (click)="seleccionarIngrediente(ingrediente)">Seleccionar</button>
           </div>
           <div class="col-sm-1"></div>
         </div>

@@ -1,33 +1,18 @@
 import {Component, OnInit} from '@angular/core';
-import {IngredienteService} from "./services/ingrediente.service";
-import {IngredienteInterface} from "./interfaces/ingrediente.interface";
-import {ComidaInterface} from "./interfaces/comida.interface";
-import {ComidaService} from "./services/comida.service";
+import {CarritoService} from "./services/carrito.service";
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  providers: [IngredienteService,ComidaService],
+  providers: [CarritoService],
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit{
-  ingredientes:Array<IngredienteInterface>;
-  comidas:Array<ComidaInterface>;
-  constructor(private ingredienteService:IngredienteService, private comidaService:ComidaService){
+  carritoNumero:number;
+  constructor(private carritoService:CarritoService){
   }
   ngOnInit(){
-    this.ingredienteService.obtenerIngredientes()
-      .subscribe(
-        (result:any)=>{
-          this.ingredientes = result;
-        }
-      );
-    this.comidaService.obtenerComidas()
-      .subscribe(
-        (result:any)=>{
-          this.comidas=result;
-        }
-      );
+    this.carritoNumero=CarritoService.ingredientesDelCarrito.length;
   }
 
 }
