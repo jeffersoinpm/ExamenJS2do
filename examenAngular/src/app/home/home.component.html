@@ -1,0 +1,72 @@
+<div class="row">
+  <div class="col-sm-8"></div>
+  <div class="col-sm-1">
+    <img src="https://image.flaticon.com/icons/png/512/107/107831.png" style="width: 40px; height: 40px">
+  </div>
+  <div class="col-sm-1">
+    <img src="http://emser.es/wp-content/uploads/2016/08/usuario-sin-foto.png" style="width: 40px; height: 40px">
+  </div>
+  <div class="col-sm-1">
+    <h5>Jefferson Paredes</h5>
+  </div>
+  <div class="col-sm-1"></div>
+</div>
+<h2>Comidas</h2>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="row">
+      <div *ngFor="let comida of comidas" class="col-sm-4">
+        <mat-card class="example-card">
+          <mat-card-header>
+            <mat-card-title>{{comida.nombrePlato}}</mat-card-title>
+            <mat-card-subtitle>{{comida.descripcionPlato}}</mat-card-subtitle>
+          </mat-card-header>
+          <img mat-card-image
+               src={{comida.imagenUrl}}
+               alt="Photo of a Shiba Inu">
+          <mat-card-actions>
+            <button mat-button (click)="seleccionarComida(comida)">Seleccionar</button>
+          </mat-card-actions>
+        </mat-card>
+      </div>
+    </div>
+    <br>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-5"></div>
+  <div class="col-sm-2">
+    <button mat-raised-button color="primary">Cargar Mas</button>
+  </div>
+  <div class="col-sm-5"></div>
+</div>
+<br>
+<h2>Ingredientes</h2>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="row">
+      <div *ngFor="let ingrediente of ingredientes" class="col-sm-3">
+        <div class="row">
+          <div class="col-sm-6">
+            <img src="{{ingrediente.imagenUrl}}" style="height: 60px; width: 60px">
+          </div>
+          <div class="col-sm-5">
+            <h5>{{ingrediente.nombreIngrediente}}</h5>
+            <h5>{{ingrediente.tipoIngrediente}}</h5>
+          </div>
+          <div class="col-sm-1"></div>
+        </div>
+
+      </div>
+      <br>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-5"></div>
+  <div class="col-sm-2">
+    <button mat-raised-button color="primary">Cargar Mas</button>
+  </div>
+  <div class="col-sm-5"></div>
+</div>
+
