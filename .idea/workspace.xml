@@ -2,23 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ecec7d8-7583-4317-b929-99a5ddea6776" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/examenAngular/src/app/app.routes.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examenAngular/src/app/services/carrito.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/examenAngular/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/examenAngular/src/app/app.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/examenAngular/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/examenAngular/src/app/app.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examenAngular/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/examenAngular/src/app/app.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/examenAngular/src/app/carritocompras/carritocompras.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/examenAngular/src/app/carritocompras/carritocompras.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/examenAngular/src/app/carritocompras/carritocompras.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/examenAngular/src/app/carritocompras/carritocompras.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examenAngular/src/app/comida/comida.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/examenAngular/src/app/comida/comida.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examenAngular/src/app/comida/comida.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/examenAngular/src/app/comida/comida.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examenAngular/src/app/home/home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/examenAngular/src/app/home/home.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examenAngular/src/app/home/home.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/examenAngular/src/app/home/home.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examenAngular/src/app/ingrediente/ingrediente.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/examenAngular/src/app/ingrediente/ingrediente.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/examenAngular/src/app/ingrediente/ingrediente.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/examenAngular/src/app/ingrediente/ingrediente.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examenAngular/src/app/interfaces/comida.interface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/examenAngular/src/app/interfaces/comida.interface.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examenAngular/src/app/services/comida.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/examenAngular/src/app/services/comida.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examenAngular/src/app/services/ingrediente.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/examenAngular/src/app/services/ingrediente.service.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,13 +20,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="app.component.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="app.component.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/examenAngular/src/app/app.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+            <state relative-caret-position="156">
+              <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#label#0;n#div#2;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#2;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
@@ -48,8 +37,11 @@
       <file leaf-file-name="app.component.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/examenAngular/src/app/app.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="283">
+              <caret line="20" column="31" lean-forward="true" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#48#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -66,26 +58,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.component.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examenAngular/src/app/home/home.component.ts">
+      <file leaf-file-name="home.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examenAngular/src/app/home/home.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-445">
-              <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+            <state relative-caret-position="104">
+              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="59" />
               <folding>
-                <element signature="e#0#50#0" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ingrediente.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examenAngular/src/app/ingrediente/ingrediente.component.html">
+      <file leaf-file-name="home.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examenAngular/src/app/home/home.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
+            <state relative-caret-position="283">
+              <caret line="36" column="31" lean-forward="true" selection-start-line="35" selection-start-column="4" selection-end-line="36" selection-end-column="31" />
               <folding>
-                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#mat-card#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="e#0#50#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -103,11 +94,24 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="ingrediente.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examenAngular/src/app/ingrediente/ingrediente.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="335">
+              <caret line="28" column="12" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="28" selection-end-column="12" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#mat-card#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="ingrediente.component.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/examenAngular/src/app/ingrediente/ingrediente.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+            <state relative-caret-position="78">
+              <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
               </folding>
@@ -115,37 +119,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="carritocompras.component.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="carritocompras.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examenAngular/src/app/carritocompras/carritocompras.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="283">
+              <caret line="29" column="36" lean-forward="true" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+              <folding>
+                <element signature="n#style#0;n#button#0;n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#div#1;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#mat-card#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="carritocompras.component.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/examenAngular/src/app/carritocompras/carritocompras.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="14" column="62" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
+            <state relative-caret-position="286">
+              <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ingrediente.service.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examenAngular/src/app/services/ingrediente.service.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="carrito.service.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examenAngular/src/app/services/carrito.service.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="1" column="73" lean-forward="true" selection-start-line="1" selection-start-column="73" selection-end-line="1" selection-end-column="73" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -179,7 +173,6 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/examenAngular/src/app/barra-busqueda/barra-busqueda.component.html" />
         <option value="$PROJECT_DIR$/examenAngular/src/app/app.module.ts" />
-        <option value="$PROJECT_DIR$/examenAngular/src/app/carritocompras/carritocompras.component.html" />
         <option value="$PROJECT_DIR$/examenAngular/src/app/app.routes.ts" />
         <option value="$PROJECT_DIR$/examenAngular/src/app/home/home.component.html" />
         <option value="$PROJECT_DIR$/examenAngular/src/app/interfaces/ingrediente.interface.ts" />
@@ -189,12 +182,13 @@
         <option value="$PROJECT_DIR$/examenAngular/src/app/ingrediente/ingrediente.component.html" />
         <option value="$PROJECT_DIR$/examenAngular/src/app/services/comida.service.ts" />
         <option value="$PROJECT_DIR$/examenAngular/src/app/services/ingrediente.service.ts" />
-        <option value="$PROJECT_DIR$/examenAngular/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/examenAngular/src/app/services/carrito.service.ts" />
-        <option value="$PROJECT_DIR$/examenAngular/src/app/app.component.ts" />
         <option value="$PROJECT_DIR$/examenAngular/src/app/home/home.component.ts" />
-        <option value="$PROJECT_DIR$/examenAngular/src/app/ingrediente/ingrediente.component.ts" />
         <option value="$PROJECT_DIR$/examenAngular/src/app/carritocompras/carritocompras.component.ts" />
+        <option value="$PROJECT_DIR$/examenAngular/src/app/carritocompras/carritocompras.component.html" />
+        <option value="$PROJECT_DIR$/examenAngular/src/app/ingrediente/ingrediente.component.ts" />
+        <option value="$PROJECT_DIR$/examenAngular/src/app/app.component.ts" />
+        <option value="$PROJECT_DIR$/examenAngular/src/app/app.component.html" />
       </list>
     </option>
   </component>
@@ -349,12 +343,12 @@
       <workItem from="1531444215509" duration="3190000" />
       <workItem from="1531483599838" duration="5717000" />
       <workItem from="1531506073335" duration="6994000" />
-      <workItem from="1531535041594" duration="7566000" />
+      <workItem from="1531535041594" duration="9153000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25654000" />
+    <option name="totallyTimeSpent" value="27241000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -661,9 +655,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examenAngular/src/app/carritocompras/carritocompras.component.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/examenAngular/src/app/interfaces/ingrediente.interface.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
@@ -682,16 +673,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="101">
           <caret line="10" column="88" selection-start-line="10" selection-start-column="88" selection-end-line="10" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examenAngular/src/app/home/home.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="87" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -725,51 +706,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examenAngular/src/app/app.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#2;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examenAngular/src/app/ingrediente/ingrediente.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#mat-card#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/examenAngular/src/app/services/carrito.service.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26">
           <caret line="1" column="73" lean-forward="true" selection-start-line="1" selection-start-column="73" selection-end-line="1" selection-end-column="73" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examenAngular/src/app/app.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examenAngular/src/app/home/home.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-445">
-          <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -794,22 +736,87 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examenAngular/src/app/ingrediente/ingrediente.component.ts">
+    <entry file="file://$PROJECT_DIR$/examenAngular/src/app/home/home.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+        <state relative-caret-position="104">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="59" />
           <folding>
-            <element signature="e#0#50#0" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/examenAngular/src/app/carritocompras/carritocompras.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="14" column="62" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
+        <state relative-caret-position="286">
+          <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examenAngular/src/app/carritocompras/carritocompras.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="29" column="36" lean-forward="true" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+          <folding>
+            <element signature="n#style#0;n#button#0;n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#1;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#mat-card#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examenAngular/src/app/ingrediente/ingrediente.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="28" column="12" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="28" selection-end-column="12" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#mat-card#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examenAngular/src/app/ingrediente/ingrediente.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examenAngular/src/app/home/home.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="36" column="31" lean-forward="true" selection-start-line="35" selection-start-column="4" selection-end-line="36" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examenAngular/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="20" column="31" lean-forward="true" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examenAngular/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#2;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

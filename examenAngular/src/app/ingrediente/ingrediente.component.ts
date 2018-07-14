@@ -24,7 +24,7 @@ export class IngredienteComponent implements OnInit {
   }
   agregarAlCarrito(ingrediente:IngredienteInterface){
     CarritoService.ingredientesDelCarrito.push(ingrediente);
-    const url = ['/carrito'];
+    const url = ['/'];
     this._router.navigate(url);
   }
 

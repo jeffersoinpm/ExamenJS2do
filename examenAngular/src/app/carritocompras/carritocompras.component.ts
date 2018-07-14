@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {CarritoService} from "../services/carrito.service";
+import {IngredienteService} from "../services/ingrediente.service";
+import {IngredienteInterface} from "../interfaces/ingrediente.interface";
 
 @Component({
   selector: 'app-carritocompras',
@@ -8,11 +10,11 @@ import {CarritoService} from "../services/carrito.service";
   providers: [CarritoService]
 })
 export class CarritocomprasComponent implements OnInit {
-
+  ingredientesComprados:Array<IngredienteInterface>;
   constructor(private carritoService:CarritoService) { }
 
   ngOnInit() {
-    console.log(CarritoService.ingredientesDelCarrito.length);
+    this.ingredientesComprados=CarritoService.ingredientesDelCarrito;
   }
 
 }
