@@ -9,11 +9,10 @@ import {Router} from "@angular/router";
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit{
-  carritoNumero:number;
+  carritoNumero:number=CarritoService.ingredientesDelCarrito.length;
   constructor(private carritoService:CarritoService,private _router: Router){
   }
   ngOnInit(){
-    this.carritoNumero=CarritoService.ingredientesDelCarrito.length;
   }
   llamarCarrito(){
     this.carritoNumero=CarritoService.ingredientesDelCarrito.length;

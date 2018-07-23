@@ -13,8 +13,9 @@ import { CarritocomprasComponent } from './carritocompras/carritocompras.compone
 import { BarraBusquedaComponent } from './barra-busqueda/barra-busqueda.component';
 import {MatIconModule} from '@angular/material/icon';
 import {MatFormFieldModule} from '@angular/material/form-field';
-import {MatInputModule} from '@angular/material';
+import {MatInputModule} from '@angular/material/input';
 import {RouterModule} from "@angular/router";
+import {FormsModule} from "@angular/forms";
 import {routes} from "./app.routes";
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import {routes} from "./app.routes";
     MatCardModule,
     MatIconModule,
     MatFormFieldModule,
+    FormsModule,
     RouterModule.forRoot(routes,
       {
         useHash: true}),

@@ -1,6 +1,7 @@
 import {Injectable} from "@angular/core";
 import {HttpClient, HttpHeaders} from "@angular/common/http";
 import {ComidaInterface} from "../interfaces/comida.interface";
+import {IngredienteService} from "./ingrediente.service";
 
 @Injectable()
 export class ComidaService {
@@ -20,5 +21,9 @@ export class ComidaService {
   obtenerComidas() {
     return this.http.get("http://localhost:1337/comida", {headers: ComidaService.getCommonHeaders()});
   }
-
+  buscarComidas(parametro){
+    let header = IngredienteService.getCommonHeaders();
+    return this.http.get('http://localhost:1337/comida?where={"nombrePlato":{"contains":"' + parametro+ '"}}'
+      ,{headers: header});
+  }
 }

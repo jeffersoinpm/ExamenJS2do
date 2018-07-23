@@ -14,6 +14,7 @@ import {Router} from "@angular/router";
 export class HomeComponent implements OnInit {
   ingredientes:Array<IngredienteInterface>;
   comidas:Array<ComidaInterface>;
+  datoABuscar;
   constructor(private ingredienteService:IngredienteService, private comidaService:ComidaService,private _router: Router){
   }
   ngOnInit(){
@@ -29,6 +30,18 @@ export class HomeComponent implements OnInit {
           this.comidas=result;
         }
       );
+  }
+  cargarDatosbusqueda() {
+    this.ingredienteService.buscarIngredientes(this.datoABuscar).subscribe(
+      (result: any[]) => {
+        this.ingredientes = result;
+      }
+    );
+    this.comidaService.buscarComidas(this.datoABuscar).subscribe(
+      (result: any[]) => {
+        this.comidas = result;
+      }
+    );
   }
   seleccionarComida(comida:ComidaInterface){
     console.log(comida);
